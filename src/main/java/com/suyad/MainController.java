@@ -20,6 +20,6 @@ public class MainController
 	{
 		int i = cxt.getBeanDefinitionCount();
 		return "Application is running on port No "+env.getProperty("server.port")+" total bean"
-				+ " availables are "+i;
+				+ " availables are "+i+" Hello Suyad preet Singh";
 	}
 }
