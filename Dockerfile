@@ -1,6 +1,5 @@
-FROM openjdk:11
+FROM openjdk:17-jdk-alpine
 MAINTAINER "Suyad"
-RUN mvn clean package
 COPY target/gillVM.jar  /usr/app/
 WORKDIR /usr/app/
 EXPOSE 8081
